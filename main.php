@@ -1,11 +1,11 @@
 <?php
 require_once './vendor/autoload.php';
 
-use Mentoria\Classes\Desafio;
+use Mentoria\Classes\TarefaUm;
 
-$desafio = new Desafio();
+$tarefaUm = new TarefaUm();
 
-$arquivo = $desafio->lerArquivo('./src/log/games.log', 'r');
+$arquivo = $tarefaUm->lerArquivo('./src/log/games.log', 'r');
 
 echo $arquivo;
 
